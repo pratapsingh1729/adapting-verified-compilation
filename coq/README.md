@@ -1,10 +1,10 @@
 # Adapting Verified Compilation for Target-Language Errors #
 
-This is the Coq development that accompanies the paper Adapting
-Verified Compilation for Target-Language Errors, submitted to CC
-2022. It contains an implementation of a small verified compiler from
-a simple imperative language to a stack machine featuring
-nondeterministic interruption.
+This is the Coq development that accompanies the senior thesis
+Adapting Verified Compilation for Target-Language Errors. It contains
+an implementation of a small verified compiler from a simple
+imperative language to a stack machine featuring nondeterministic
+interruption.
 
 ## Checking the proofs ##
 
@@ -40,8 +40,8 @@ This development is based on Xavier Leroy's [EUTypes 2019 compiler
 correctness tutorial](https://xavierleroy.org/courses/EUTypes-2019/).
 We added explicit traces of externally visible events and
 nondeterministic interruption in the target language. We also changed
-most of the proof to use the proof technique described in Section 3.1.1
-of our submission.
+most of the proof to use the proof technique described in Section 3.3
+of the thesis.
 
 Parts of the file Sequences.v contain code adapted from the [Coq
 development](https://github.com/secure-compilation/different_traces)
